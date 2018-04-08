@@ -3,7 +3,7 @@
 
 Please find the full documentation in the documentation folder. This was made for the course HW/SW co-design with a LEGO car (IN2106, IN0012, IN4154) at TUM, in the Winter semester 2016.
 
-This program calibrate a stereocamera (intrinsic and extrinsic), calculate a depth map and provides a top view of the depth map so the automated car can decide where to go. Can only be used with the plugged stereo camera.
+This program calibrate a stereocamera (intrinsic and extrinsic), calculate a depth map and provides a top view of the depth map so the automated car can decide where to go. Can only be used with the plugged stereo camera. You can see the result video [here](https://youtu.be/H497a5wq_IY).
 
 ❗️❗️ Please note that the project was not maintained since 2016 ❗️❗️
 
