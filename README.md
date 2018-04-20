@@ -1,7 +1,7 @@
 
 # Stereo Vision with OpenCV
 
-Please find the full documentation in the documentation folder. This was made for the course HW/SW co-design with a LEGO car (IN2106, IN0012, IN4154) at TUM, in the Winter semester 2016. This code was also developped for a master student thesis. You can find my code he refactored for OpenCV 3.1.0 [here](https://github.com/ModelCar/Collision-Avoidance).
+Please find the full documentation in the documentation folder. This was made for the course HW/SW co-design with a LEGO car (IN2106, IN0012, IN4154) at TUM, in the Winter semester 2016.
 
 This program calibrate a stereocamera (intrinsic and extrinsic), calculate a depth map and provides a top view of the depth map so the automated car can decide where to go. Can only be used with the plugged stereo camera. You can see the result video [here](https://youtu.be/H497a5wq_IY).
 
@@ -28,3 +28,7 @@ Boost is only for the calibration process. Once the calibration is done, the int
 - If you use the calibration, verify the chessboard size in the cameracalibrator.hpp file (default is 9.6) and the square size of the chessboard in the cameracalibrator.cpp (default is 2.5 cm)
 - To change the default matching method, go in depthsubstraction.cpp, by default it's the BM method.
 - If you wanna use the SGBM algorithm, you have to change de disparity parameters, because the default parameters are changed to work with the BM algorithm only.
+
+## Acknowledgement
+
+This code was not only developped for a university course but also for a master student thesis. You can find part of my code he refactored for OpenCV 3.1.0 [here](https://github.com/ModelCar/Collision-Avoidance). You can also find his full master thesis about the Development and Construction of an Autonomous Car with Low Cost Components [here](http://wwwknoll.in.tum.de/pub/Main/Hub/Developmen.pdf).
