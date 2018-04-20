@@ -31,4 +31,4 @@ Boost is only for the calibration process. Once the calibration is done, the int
 
 ## Acknowledgement
 
-This code was not only developped for a university course but also for a master student thesis. You can find part of my code he refactored for OpenCV 3.1.0 [here](https://github.com/ModelCar/Collision-Avoidance). You can also find his full master thesis about the Development and Construction of an Autonomous Car with Low Cost Components [here](http://wwwknoll.in.tum.de/pub/Main/Hub/Developmen.pdf).
+This code was not only developped for a university course but also for a master student thesis, Roger Rösch. You can find part of my code he refactored for OpenCV 3.1.0 [here](https://github.com/ModelCar/Collision-Avoidance). You can also find his full master thesis about the Development and Construction of an Autonomous Car with Low Cost Components [here](http://wwwknoll.in.tum.de/pub/Main/Hub/Developmen.pdf).
